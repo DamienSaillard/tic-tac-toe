@@ -48,9 +48,9 @@ var Row = React.createClass({
 	'render': function onRender() {
 	return (
 	<div>
-	<Box initialValue={'X'} />
-	<Box initialValue={'X'} />
-	<Box initialValue={'X'} />
+	<Box initialValue={'-'} />
+	<Box initialValue={'-'} />
+	<Box initialValue={'-'} />
 	</div>
 	);
 	}
