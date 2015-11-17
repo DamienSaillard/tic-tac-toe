@@ -44,4 +44,16 @@ var Box = React.createClass({
   }
 });
 
-React.render(<Box initialValue='O'/>, document.body);
+var Row = React.createClass({
+	'render': function onRender() {
+	return (
+	<div>
+	<Box initialValue={'X'} />
+	<Box initialValue={'X'} />
+	<Box initialValue={'X'} />
+	</div>
+	);
+	}
+});
+
+React.render(<Row/>, document.body);
