@@ -16,6 +16,7 @@ var Box = React.createClass({
 	return {value: this.props.initialValue}
    },
     
+	/*
 	componentWillMount: function (){
 	setInterval(this.updatetime,300);
 	},
@@ -24,16 +25,16 @@ var Box = React.createClass({
 	if(this.state.value=='X') this.setState({value:'O'});
 	else this.setState({value:'X'});
 	},
+	*/
 	
-	
-   /**
+   
    handleClick: function() {
    var etat = this.state.value;
    var newetat;
    if (etat == 'X') newetat='O';
    else newetat='X';
    this.setState({value:newetat});
-   }, */
+   },
    
 
   'render': function onRender () {
